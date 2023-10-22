@@ -3,9 +3,13 @@ body {
 }
 
 .main-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 300px;
     height: 150px;
-    background-color: deepskyblue;
+    background-color: green;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,5 +17,6 @@ body {
 }
 
 .main-block-message {
+    color: white;
     font-size: 23px;
 }
